@@ -25,6 +25,6 @@ def combine_lists(names, creds):
 
 
 def write_to_csv(list, path="ouput.csv"):
-    with open(path, "w") as file:
+    with open(path, "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerows(list)
