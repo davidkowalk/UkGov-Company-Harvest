@@ -2,7 +2,7 @@ import csv
 
 def combine_lists(names, creds):
     combined_list = [["Search Name", "Region", "Found Name", "Website"]]
-    empty_list = [["Search Name"], ["Region"]]
+    empty_list = [["Search Name", "Region"]]
 
     print(names)
     print(creds)
