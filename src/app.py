@@ -8,7 +8,7 @@ def main():
     url = "https://www.gov.uk/government/publications/tier-2-employers-in-the-health-care-sector/list-of-tier-2-employers-in-the-health-care-sector-categorised-by-region-and-the-industry-sectors" #input("gov.uk url: ")
 
     print("Fetching Company Names...")
-    company_list = ukgov.get_company_credentials(url)[2490:]
+    company_list = ukgov.get_company_credentials(url)
 
     credentials_list = []
 
